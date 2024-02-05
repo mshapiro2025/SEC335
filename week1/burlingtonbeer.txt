@@ -1,0 +1,93 @@
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.2.0                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: burlingtonbeercompany.com 
+
+
+[93m[!] Missing API key for binaryedge. [0m
+
+[93m[!] Missing API key for Censys ID and/or Secret. [0m
+
+[93m[!] Missing API key for fullhunt. [0m
+
+[93m[!] Missing API key for Github. [0m
+
+[93m[!] Missing API key for Hunter. [0m
+
+[93m[!] Missing API key for Intelx. [0m
+
+[93m[!] Missing API key for PentestTools. [0m
+
+[93m[!] Missing API key for ProjectDiscovery. [0m
+
+[93m[!] Missing API key for RocketReach. [0m
+
+[93m[!] Missing API key for Securitytrail. [0m
+
+[93m[!] Missing API key for virustotal. [0m
+
+[93m[!] Missing API key for zoomeye. [0m
+An exception has occurred: Cannot serialize non-str key None
+[94m[*] Searching Anubis. 
+An exception has occurred: Cannot connect to host dns.bufferover.run:443 ssl:<ssl.SSLContext object at 0x7f7f4110e0c0> [Name or service not known]
+	Searching 0 results.
+[94m[*] Searching Bing. 
+	Searching results.
+[94m[*] Searching Certspotter. 
+[94m[*] Searching Baidu. 
+[94m[*] Searching Duckduckgo. 
+[94m[*] Searching Dnsdumpster. 
+[94m[*] Searching CRTsh. 
+[94m[*] Searching Hackertarget. 
+[94m[*] Searching Otx. 
+[94m[*] Searching Qwant. 
+An exception has occurred: Cannot connect to host api.sublist3r.com:443 ssl:<ssl.SSLContext object at 0x7f7f488e56c0> [Connection refused]
+[94m[*] Searching Sublist3r. 
+An exception has occurred: Cannot connect to host www.threatcrowd.org:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.threatcrowd.org'. (_ssl.c:997)")]
+string indices must be integers
+[94m[*] Searching Threatcrowd. 
+[94m[*] Searching Rapiddns. 
+[94m[*] Searching Urlscan. 
+[94m[*] Searching Threatminer. 
+An exception has occurred: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url=URL('https://sonar.omnisint.io/all/burlingtonbeercompany.com?page=1')
+[94m[*] Searching Omnisint. 
+
+[*] ASNS found: 1
+--------------------
+AS53831
+
+[*] Interesting Urls found: 1
+--------------------
+https://www.burlingtonbeercompany.com/
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 7
+-------------------
+192.186.199.34
+198.49.23.144
+198.49.23.145
+198.185.159.144
+198.185.159.145
+
+[*] Emails found: 1
+----------------------
+hello@burlingtonbeercompany.com
+
+[*] Hosts found: 6
+---------------------
+www.burlingtonbeercompany.com:198.185.159.144, 198.49.23.144, 198.49.23.145, 198.185.159.145
+www.burlingtonbeercompany.com:ext-cust.squarespace.com
+www.burlingtonbeercompany.com:ext-cust.squarespace.com.
